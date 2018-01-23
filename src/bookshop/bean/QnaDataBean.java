@@ -3,15 +3,15 @@ package bookshop.bean;
 import java.sql.Timestamp;
 
 public class QnaDataBean {
-	private int qna_id;//qnaê¸€ë²ˆí˜¸
-	private int book_id;//ì±…ì˜ ë“±ë¡ë²ˆí˜¸
-	private String book_title;//ì±…ì´ë¦„
-	private String qna_writer;//qnaì‘ì„±ì
-	private String qna_content;//qnaë‚´ìš©
-	private int group_id;//qnaê·¸ë£¹ì•„ì´ë””
-	private byte qora;//qnaê·¸ë£¹ë‚´ì˜ ìˆœì„œ
-	private byte reply;//ë‹µë³€ì—¬ë¶€
-	private Timestamp reg_date;//qnaì‘ì„±ì¼
+	private int qna_id;//qna±Û¹øÈ£
+	private int book_id;//Ã¥ÀÇ µî·Ï¹øÈ£
+	private String book_title;//Ã¥ÀÌ¸§
+	private String qna_writer;//qnaÀÛ¼ºÀÚ
+	private String qna_content;//qna³»¿ë
+	private int group_id;//qna±×·ì¾ÆÀÌµğ
+	private byte qora;//qna±×·ì³»ÀÇ ¼ø¼­
+	private byte reply;//´äº¯¿©ºÎ
+	private Timestamp reg_date;//qnaÀÛ¼ºÀÏ
 	
 	public int getQna_id() {
 		return qna_id;

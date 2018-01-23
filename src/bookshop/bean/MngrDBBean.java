@@ -28,7 +28,7 @@ public class MngrDBBean {
 	//커넥션 풀에서 커넥션 객체를 얻어내는 메소드
 	private Connection getConnection() throws Exception{
 		Context initCtx = new InitialContext();
-		Context envCtx = (Context)initCtx.lookup("java:comp/enc");
+		Context envCtx = (Context)initCtx.lookup("java:comp/env");
 		DataSource ds = (DataSource)envCtx.lookup("jdbc/jsptest");
 		return ds.getConnection();
 	}

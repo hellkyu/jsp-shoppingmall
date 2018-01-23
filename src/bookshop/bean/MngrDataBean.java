@@ -15,6 +15,7 @@ public class MngrDataBean {
 	private String book_content;//책의 내용
 	private byte discount_rate;//책의 할인율
 	private Timestamp reg_date;//책의 등록 날짜
+	
 	public int getBook_id() {
 		return book_id;
 	}
