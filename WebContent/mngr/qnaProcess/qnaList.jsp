@@ -5,7 +5,6 @@
 <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
 <link rel="stylesheet" href="/jsp-shoppingmall/css/style.css"/>
 <script src="/jsp-shoppingmall/js/jquery-3.2.1.min.js"></script>
-<script src="/jsp-shoppingmall/js/jquery.form.min.js"></script>
 <script src="/jsp-shoppingmall/mngr/qnaProcess/qnalist.js"></script>
 
 <c:if test="${empty sessionScope.id}">
