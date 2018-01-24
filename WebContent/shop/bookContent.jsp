@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
 <link rel="stylesheet" href="/jsp-shoppingmall/css/style.css"/>
 <script src="/jsp-shoppingmall/js/jquery-3.2.1.min.js"></script>
-<script src="/jsp-shoppingmall/shop/bookcontent.js"></script>
+<script src="/jsp-shoppingmall/shop/bookContent.js"></script>
 
 <div id="cata" class="box2">
   <ul>
